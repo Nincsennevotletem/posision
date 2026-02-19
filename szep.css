@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+main{
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    text-align: center;
+    list-style-type: none;
+    gap: 3px;
+    padding: 0px;
+}
+
+nav ul li{
+    background-color: orange;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    display: block;
+}
+nav ul li:hover{
+    background-color: rgb(88, 64, 41);
+}
+
+
+/*position*/
+/* position: static, fixed, sticky, relative, absolute*/
+
+nav {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#szoveg{
+    position: relative;
+    border: 1px solid green;
+}
+
+#iksz {
+    color: rgb(238, 187, 187);
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
