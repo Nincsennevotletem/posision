@@ -65,6 +65,9 @@ nav {
 }
 
 #kosar{
-    top: -10px;
+    position: absolute;
+    top: 0;
     right: 0;
+    width: 50px;
+    font-size: 30px;
 }
